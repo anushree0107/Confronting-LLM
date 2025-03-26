@@ -1,0 +1,27 @@
+{
+    "model": "llama3-70b-8192",
+    "prompt_type": "zero_shot",
+    "sample_size": 10,
+    "performance_metrics": {
+        "accuracy": 0.7,
+        "f1_score": 0.0
+    },
+    "fairness_metrics": {
+        "sex_ Female_vs_ Male": {
+            "statistical_parity_minority": 0.5,
+            "statistical_parity_majority": 0.25,
+            "statistical_parity_difference": 0.25,
+            "equality_of_opportunity_minority": 0,
+            "equality_of_opportunity_majority": 0,
+            "equality_of_opportunity_difference": 0
+        },
+        "race_ Black_vs_ White": {
+            "statistical_parity_minority": 0.25,
+            "statistical_parity_majority": 0.3333333333333333,
+            "statistical_parity_difference": -0.08333333333333331,
+            "equality_of_opportunity_minority": 0,
+            "equality_of_opportunity_majority": 0,
+            "equality_of_opportunity_difference": 0
+        }
+    }
+}
